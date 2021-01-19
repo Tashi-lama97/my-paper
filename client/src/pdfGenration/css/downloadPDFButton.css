@@ -1,0 +1,8 @@
+.download-page-btn a {
+  padding: 1rem;
+  background-color: var(--fc-primary);
+  color: #fff !important;
+  font-weight: bold;
+  position: relative;
+  border-radius: 25px;
+}

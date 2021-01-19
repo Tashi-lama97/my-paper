@@ -1,0 +1,39 @@
+.balls {
+  width: 15px;
+  height: 15px;
+  margin: 0.2rem;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+  transform: scale(0);
+  animation: scaling 2.5s ease-in-out infinite;
+}
+@keyframes scaling {
+  0%,
+  100% {
+    transform: scale(0.2);
+    background-color: #fff;
+  }
+  50% {
+    transform: scale(1);
+    background-color: #fbf7f5;
+  }
+}
+.balls:nth-child(0) {
+  animation-delay: 0s;
+}
+.balls:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.balls:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.balls:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.balls:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.balls:nth-child(5) {
+  animation-delay: 1s;
+}

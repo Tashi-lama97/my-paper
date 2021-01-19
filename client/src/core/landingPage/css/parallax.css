@@ -1,0 +1,7 @@
+.parallax-container {
+  height: 300px !important;
+  z-index: 5;
+}
+.parallax-container > .parallax > img {
+  width: 100%;
+}

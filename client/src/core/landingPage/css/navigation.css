@@ -1,0 +1,51 @@
+/* universal button color*/
+.btn {
+  background-color: #009688 !important;
+}
+
+nav {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  transition: ease-in-out;
+  z-index: 2 !important;
+}
+.active-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+  background-color: #263238 !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.landing-page-nav-wrapper {
+  overflow: hidden;
+}
+.logo {
+  width: 50%;
+  padding-top: 8px;
+  object-fit: contain !important;
+}
+.btn-login {
+  font-weight: 700;
+}
+.sidenav-btn-login {
+  font-weight: 700;
+  margin-top: 1rem !important;
+  width: 90% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    width: 35%;
+    padding-top: 6%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    padding-top: 4%;
+  }
+}

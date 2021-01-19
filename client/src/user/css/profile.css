@@ -1,0 +1,65 @@
+.profileContentWrapper {
+  width: 100%;
+}
+.profileTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--ff-nerko);
+  color: var(--fc-primary);
+  padding: 1rem !important;
+}
+.profileMainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileCardWrapper {
+  width: 60% !important;
+}
+.profileDetailsCardContent {
+  padding: 0 !important;
+}
+.profileDetailsHead {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+}
+.headLeftSection {
+  font-family: var(--ff-nerko);
+  font-size: 1.5rem;
+  color: var(--fc-primary);
+}
+.editIcon {
+  font-size: 1rem !important;
+}
+.editText {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--ff-poppins);
+  margin-left: 0.4rem;
+}
+.profileCardMainContent {
+  padding: 1rem;
+}
+.profileDetailsTitles {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: var(--ff-nerko);
+  padding: 0 !important;
+  margin: 0 !important;
+  color: var(--fc-primary);
+  word-wrap: break-word;
+}
+.profileDetailsData {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 1.5rem !important;
+  font-family: var(--ff-poppins);
+}
+@media only screen and (max-width: 600px) {
+  .profileCardWrapper {
+    width: 100% !important;
+  }
+}

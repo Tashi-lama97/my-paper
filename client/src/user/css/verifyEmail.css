@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.verify-error-main {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-logo-icon {
+  width: 50%;
+}
+
+.verify-error-nav {
+  min-height: 10vh !important;
+  padding-top: 0.6rem;
+  background-image: linear-gradient(
+    120deg,
+    #84fab0 0%,
+    #8fd3f4 100%
+  ) !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.verify-error-wrapper {
+  min-height: 77vh;
+  margin: 0 !important;
+}
+.verify-error-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh !important;
+  margin: 0 !important;
+}
+.verify-error-message {
+  font-weight: 600;
+  font-family: "Nerko One", cursive;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #ea384d,
+    #d31027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ea384d,
+    #d31027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+  -webkit-animation: hue 3s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .verify-error-nav {
+    min-height: 10vh !important;
+  }
+  .verify-error-wrapper {
+    min-height: 69.8vh;
+  }
+  .verify-error-block {
+    min-height: 73vh !important;
+  }
+}

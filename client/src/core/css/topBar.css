@@ -1,0 +1,42 @@
+.top-nav-wrapper {
+  background-color: #fff !important;
+  width: 100% !important;
+  right: 0 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.top-bar-dropdown {
+  min-width: 250px !important;
+  width: auto !important;
+}
+.greeting-message {
+  color: var(--fc-primary);
+  font-family: var(--ff-nerko);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.btn-logout {
+  padding: 1rem !important;
+  font-weight: 600;
+  color: red !important;
+  width: 100% !important;
+  text-align: left !important;
+}
+.top-bar-link {
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+.top-bar-dlink {
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.fa-user {
+  font-size: 1rem !important;
+  margin-right: 0 !important;
+}
+.fa-sign-out-alt {
+  line-height: 0 !important;
+  height: auto !important;
+  font-size: 1rem !important;
+}

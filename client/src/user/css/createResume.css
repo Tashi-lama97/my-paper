@@ -1,0 +1,80 @@
+.create-resume-heading {
+  padding: 1rem 0.5rem 1rem 1rem !important;
+  font-size: 1.8rem !important;
+  color: #ff4500;
+  font-weight: 600;
+  font-family: "Nerko One", cursive;
+}
+.create-resume-section-heading {
+  font-size: 1.4rem !important;
+  color: #ff4500;
+  font-weight: 500 !important;
+  font-family: "Nerko One", cursive;
+}
+.education-table-row {
+  margin-bottom: 2rem !important;
+}
+.education-table-wrapper {
+  overflow-x: scroll;
+}
+.create-resuem-table-remove-btn {
+  color: red !important;
+}
+.basic-template-row {
+  width: 100% !important;
+}
+.smallheading {
+  color: #ff4500 !important;
+  font-size: 1.2rem !important;
+  padding: 0.5rem !important;
+  padding-bottom: 1rem !important;
+  font-weight: 500 !important;
+  font-family: "Nerko One", cursive;
+}
+.create-resume-save-button {
+  padding-top: 2rem !important;
+  text-align: center !important;
+}
+.exp-list-org {
+  font-size: 1.2rem;
+  color: var(--fc-primary);
+  font-weight: 600;
+}
+.exp-list-position {
+  font-size: 1rem;
+  color: "#323232";
+  font-weight: 600;
+}
+.exp-list-dates {
+  font-size: 0.8rem;
+  color: var(--fc-primary);
+  font-weight: 600;
+}
+.exp-list-work-details {
+  font-size: 0.8rem;
+  color: "#323232";
+  padding-left: 2rem;
+}
+.skill-label {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: var(--fc-primary);
+  font-family: var(--ff-nerko);
+  font-size: 1.5rem;
+}
+.skill-range {
+  margin: 0 !important;
+}
+.skill-progress-bar {
+  max-width: 10vw !important;
+  overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .create-resume-form-container {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+  }
+  .create-resume-heading-container {
+    margin-bottom: 0rem !important;
+  }
+}

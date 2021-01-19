@@ -1,0 +1,48 @@
+.numberCardWrapper {
+  width: 100%;
+  height: 15vh;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.cardIconSection {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardTextSection {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardIcon {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #dddfeb;
+}
+.cardHeadingText {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  font-family: var(--ff-teko);
+  color: var(--fc-primary);
+}
+
+.cardNumberText {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: var(--ff-teko);
+}

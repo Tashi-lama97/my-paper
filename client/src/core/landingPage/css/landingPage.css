@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.content-1 {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.content-1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 29rem solid white;
+  border-left: 91rem solid transparent;
+  z-index: -1 !important;
+}
+
+.content-1 > .row {
+  margin: 0 !important;
+  z-index: 5 !important;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.content-1 > .row > .container > .col-left {
+  padding-top: 3rem;
+  z-index: 5 !important;
+}
+.content-1 > .row > .container > .col-right {
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-top: 6rem;
+  text-align: left;
+}
+.content-1 > .row > .col-right > p {
+  margin: 0 !important;
+  padding-bottom: 0.3rem;
+}
+.line-1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+}
+.line-2 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.image {
+  width: 70%;
+}
+
+.btn-signup {
+  font-weight: 700;
+}
+
+.services {
+  margin: 0 !important;
+  padding-top: 4rem !important;
+  min-height: 20vh;
+}
+.services-col {
+  padding: 2rem !important;
+}
+.services-img {
+  width: 100%;
+  min-height: 205px !important;
+  max-height: 205px !important;
+}
+.services-tagLine {
+  font-family: "Karla", sans-serif;
+  font-weight: 600 !important;
+  font-size: 0.9rem;
+}
+
+.build-section {
+  position: relative;
+  height: auto;
+}
+.context {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+}
+.build-heading {
+  font-size: 1.8rem;
+  padding-top: 1.5rem !important;
+  padding-left: 2rem !important;
+  padding-bottom: 1.5rem !important;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+.steps {
+  color: #fff !important;
+}
+.steps > img {
+  width: 35% !important;
+  max-height: 200px !important;
+}
+.steps > p {
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+.tabs {
+  background-color: transparent !important;
+}
+.tabs .tab a {
+  color: #fff !important;
+  /*Custom Text Color*/
+}
+
+.tabs .tab a:hover {
+  color: #fff !important;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color: #fff !important;
+  /*Custom Text Color While Active*/
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color: #fff !important;
+  /*Custom Color Of Indicator*/
+}
+.carousel {
+  height: 48vh !important;
+}
+
+@media screen and (max-width: 600px) {
+  .content-1 > .row > .container > .col-right {
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  .services {
+    padding-top: 1rem !important;
+  }
+  .steps > img {
+    width: 70% !important;
+    min-height: 55% !important;
+    max-height: 55% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px),
+  screen and (max-height: 1366px) and (min-height: 1366px) {
+  .content-1:after {
+    border-bottom: 29rem solid white;
+    border-left: 73rem solid transparent;
+  }
+  .content-1 > .row {
+    padding-bottom: 0 !important;
+  }
+
+  .content-1 > .row > .container > .col-left {
+    padding-top: 4rem;
+    padding-bottom: 0 !important;
+  }
+
+  .content-1 > .row > .container > .col-right {
+    padding-top: 5.8rem;
+  }
+  .image {
+    width: 90%;
+  }
+}

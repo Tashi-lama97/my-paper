@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    <style>
+      .wrapper{
+        padding:1.2rem;
+      }
+      .heading{
+          font-size: 1.2rem;
+      }
+      .name{
+          color: #d50000 ;
+          font-weight: bold;
+      }
+      .email{
+          font-size: 0.9rem;
+          color: #311b92;
+      }
+      .question{
+          font-size:1.5rem;
+          font-weight: bold;
+      }
+      .question-data{
+          font-size: 1rem;
+      }
+          
+    </style>
+</head>
+<body>
+ <div class="wrapper">
+     <p class="heading">Hello Admin, <span class="name">{{name}}</span>:<span class="email">({{email}})</span> would like to ask the question below.</p>
+     <p class="question">Question.</p>
+     <p class="question-data">{{data}}</p>
+ </div>
+</body>
+</html>

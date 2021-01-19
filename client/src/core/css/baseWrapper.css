@@ -1,0 +1,14 @@
+.base-wrapper-content-right {
+  padding-left: 250px;
+}
+.base-wrapper-main-content {
+  min-height: 80.4vh !important;
+}
+.base-wrapper-navbar-fixed {
+  width: 100% !important;
+}
+@media only screen and (max-width: 992px) {
+  .base-wrapper-content-right {
+    padding-left: 0;
+  }
+}

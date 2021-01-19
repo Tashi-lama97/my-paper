@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    <style>
+      
+        .main{
+            width: 700px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .content1{
+            width: 400px;
+            margin: auto;
+            background: #3c4d58 ;
+            color: #fff;
+            height: 300px;
+        }
+       .header{
+            width: 100%;
+            background-image: url("https://image.shutterstock.com/image-illustration/infinite-mail-envelopes-3d-rendering-260nw-607153232.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 90px;
+        }
+        .image{
+            width: 100px;
+        }
+        .wrapper{
+            width: 100%;
+        }
+        .text{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+         h3 {
+           font-size: 1.8rem;
+           font-weight: 500;
+           margin-bottom: 0;
+        }
+        p{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        a{
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: #FF6347;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+  <div class="main">
+      <div class="content1">
+        <div class="header">
+           
+        </div>
+        <div class="wrapper">
+           <div class="text">
+               <h3>Email Confirmation</h3>
+               <p>Hey {{name}}, you're almost ready to start Using our website.
+                   simpaly click the big button below to verify your email.
+               </p>
+               <a href={{link}} target="blank" >Verify email address </a>
+            </div>    
+      </div>
+      </div>
+  </div>
+</body>
+</html>

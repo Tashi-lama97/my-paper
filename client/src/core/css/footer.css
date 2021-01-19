@@ -1,0 +1,29 @@
+.footer {
+  height: 10vh !important;
+  background-color: #263238;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+.btn-contact {
+  font-weight: 600;
+}
+.footer-right {
+  padding-top: 1rem !important;
+}
+
+.social-icons {
+  padding: 1.3rem 0.5rem 0 0.5rem;
+  font-size: 1.3rem !important;
+  color: #fff !important;
+  display: inline-block !important;
+}
+.social-icons > a {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    height: auto !important;
+    padding-bottom: 1rem !important;
+  }
+}

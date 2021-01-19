@@ -1,0 +1,20 @@
+.adminDash-wrapper-title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--ff-nerko);
+  color: var(--fc-primary);
+  padding: 1rem !important;
+}
+.numberCardSecttion {
+  padding-top: 1rem !important;
+}
+.numberCardBox {
+  padding: 0 1rem 0 1rem !important;
+  margin-bottom: 1.2rem;
+}
+.chartWrapper {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem !important;
+}
+.cardSpacer {
+  min-height: 15vh;
+}

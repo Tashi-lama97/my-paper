@@ -1,0 +1,59 @@
+.navigation-main-sidenav {
+  background-image: url("../images/navImg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #fff !important;
+  width: 250px !important;
+}
+.overLay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.671);
+  z-index: -1;
+}
+.navigation-main-links {
+  color: #ff4500 !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.05rem !important;
+  width: 100% !important;
+  transition: color 0.4s ease-in-out !important;
+}
+.navigation-main-logo {
+  width: 100% !important;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 3rem 0 2rem 0 !important;
+}
+.navigation-main-logo-links {
+  width: 100% !important;
+}
+.navigation-main-logo-img {
+  width: 80% !important;
+}
+.navigation-main-li-link-icon {
+  margin: 0 !important;
+  font-weight: 600;
+  color: #ff4500 !important;
+  transition: color 0.4s ease-in-out !important;
+}
+.navigation-main-li-items {
+  transition: background-color 0.5s ease-in-out !important;
+  color: #ff4500 !important;
+  margin-bottom: 0.5rem !important;
+}
+.navigation-main-li-items:hover .navigation-main-links,
+.navigation-main-li-items:hover .navigation-main-li-link-icon {
+  background-color: #ff4500;
+  color: #fff !important;
+}
+#active,
+#active .navigation-main-li-link-icon {
+  background-color: #ff4500;
+  color: #fff !important;
+}

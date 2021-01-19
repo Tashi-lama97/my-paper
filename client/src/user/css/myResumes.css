@@ -1,0 +1,107 @@
+.my-resume-main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  font-family: var(--ff-nerko);
+  color: var(--fc-primary);
+}
+.my-resume-main-table-section {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.my-resume-download-icon {
+  font-size: 1.5rem;
+  color: var(--fc-primary);
+}
+.my-resume-edit-icon {
+  font-size: 1.2rem !important;
+}
+.action-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.my-resume-filter-heading {
+  font-size: 1.2rem !important;
+  color: var(--fc-primary);
+  font-family: var(--ff-nerko);
+  padding: 1.2rem !important;
+}
+.my-resume-filter-row {
+  margin-bottom: 0 !important;
+}
+.my-resume-filter-clear {
+  margin-top: 1.3rem !important;
+}
+.my-resume-sort-row {
+  margin-bottom: 2.5rem !important;
+}
+.my-resume-filter-clear-col {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .my-resume-filter-clear {
+    margin-top: 0.3rem !important;
+    align-items: flex-end !important;
+  }
+  .my-resume-filter-clear-col {
+    padding-right: 0.6rem !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+/* ANIMATION LOADER */
+.spinner {
+  margin: 0 auto 0;
+  width: auto;
+  text-align: center;
+}
+
+.spinner > div {
+  margin: 0.5rem;
+  width: 10px;
+  height: 10px;
+  background-color: var(--fc-primary);
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
