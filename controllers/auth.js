@@ -61,10 +61,10 @@ exports.signup = (req, res) => {
           if (req.hostname === "localhost") {
             hostName = req.hostname + ":3000";
           } else {
-            hostName = process.env.SENDGRIP_URL;
+            hostName = process.env.SENDGRID_URL;
           }
           var proto = req.protocol;
-          var link = `http://${hostName}/verifyemail/${verification_token}`;
+          var link = `${proto}://${hostName}/verifyemail/${verification_token}`;
 
           //Mail for verification
           const mailinfo = {
