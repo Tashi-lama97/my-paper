@@ -118,7 +118,7 @@ exports.getForgotPasswordLink = (req, res) => {
       if (req.hostname === "localhost") {
         hostName = req.hostname + ":3000";
       } else {
-        hostName = req.hostName;
+        hostName = process.env.SENDGRID_URL;
       }
       var proto = req.protocol;
 
