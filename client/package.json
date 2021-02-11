@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
     "chart.js": "^2.9.4",
-    "lodash.merge": "^4.6.2",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.11.1",
@@ -37,5 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:8000"
 }
